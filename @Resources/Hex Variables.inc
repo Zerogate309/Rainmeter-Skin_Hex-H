@@ -301,7 +301,7 @@ Language=de-DE
 ; ############ Units ############
 
 ; ---- 12 = 12 hr | 24 = 24 hr ----
-FormatTime=24
+FormatTime=24h
 
 ; ---- C = Celsius | F = Fahrenheit ----
 UnitTemp=C

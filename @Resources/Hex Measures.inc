@@ -77,10 +77,10 @@ Substitute="0":"","1":":"
 
 ; ========== Date ==========
 
-; --- Full weekday name. (e.g. "Saturday") Local ---
-[Measure_Date_Weekday_Local]
+; --- Full weekday name. (e.g. "Saturday") ---
+[Measure_Date_Weekday]
 Measure=Time
-FormatLocale=Local
+FormatLocale=#Language#
 Format=%A
 ; --- Day of month as number, zero padded (01 - 31)
 [Measure_Date_DD]
@@ -114,35 +114,35 @@ Format=%W
 [Measure_Date_DD_MM]
 Measure=Time
 Format=%d.%m.
-; --- Weekday (Thu) Day (01. - 31.); Month (e.g. "Dec"); in Local Format ---
-[Measure_Date_WD_DD_MMM_Local]
+; --- Weekday (Thu) Day (01. - 31.); Month (e.g. "Dec") ---
+[Measure_Date_WD_DD_MMM]
 Measure=Time
 Format=%a %d. %b
-FormatLocale=Local
+FormatLocale=#Language#
 ; --- Day (01 - 31); Month (01 - 12); Year (Year with century) ---
 [Measure_Date_DD_MM_JJJJ]
 Measure=Time
 Format=%d.%m.%Y
-; --- Day (01 - 31); Month (e.g. "Dec"); Year (00 - 99) in Local Format ---
+; --- Day (01 - 31); Month (e.g. "Dec"); Year (00 - 99) ---
 [Measure_Date_DD_MMM_JJ]
 Measure=Time
 Format=%d %b %y
-FormatLocale=Local
-; --- Day (01 - 31); Month (e.g. "Dec"); Year (Year with century) in Local Format ---
+FormatLocale=#Language#
+; --- Day (01 - 31); Month (e.g. "Dec"); Year (Year with century) ---
 [Measure_Date_DD_MMM_JJJJ]
 Measure=Time
 Format=%d %b %Y
-FormatLocale=Local
-; --- Day (01 - 31); Month (e.g. "Dec"); Year (00 - 99) in Local Format ---
-[Measure_Date_DD_MMM_JJ_Local]
+FormatLocale=#Language#
+; --- Day (01 - 31); Month (e.g. "Dec"); Year (00 - 99) ---
+[Measure_Date_DD_MMM_JJ]
 Measure=Time
 Format=%d. %b %Y
-FormatLocale=Local
-; --- Weekday (Thu) Day (01. - 31.); Month (e.g. "Dec"); Year (00 - 99) in Local Format ---
+FormatLocale=#Language#
+; --- Weekday (Thu) Day (01. - 31.); Month (e.g. "Dec"); Year (00 - 99) ---
 [Measure_Date_WD_DD_MMM_JJJJ_Local]
 Measure=Time
 Format=%a %d. %b %Y
-FormatLocale=Local
+FormatLocale=#Language#
 
 ; ========== Drives ==========
 
@@ -888,6 +888,11 @@ RegKey=HARDWARE\DESCRIPTION\System\CentralProcessor\0
 RegValue=Identifier
 UpdateDivider=3000
 
+[Measure_CPU_MHz]
+Measure=Plugin
+Plugin=PowerPlugin
+PowerState=MHz
+
 ; xxx Ersetzen mit Measure_CPUCore0Usage
 [Measure_CPU1]
 Measure=Plugin
@@ -1006,6 +1011,16 @@ MaxValue=100
 [Measure_SWAP_Free]
 Measure=SwapMemory
 InvertMeasure=1
+
+; ========== GPU ==========
+
+[Measure_GPU]
+Measure=Plugin
+Plugin=UsageMonitor
+Alias=GPU
+Index=1
+MinValue=0
+MaxValue=100
 
 ; ========== Windows ==========
 
