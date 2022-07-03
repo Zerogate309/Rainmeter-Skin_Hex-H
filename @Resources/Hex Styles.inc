@@ -507,6 +507,13 @@ AntiAlias=1
 W=18
 H=18
 
+; -- Icon W=18; H=18 Color 2 --
+[Style_Icon_18_3]
+ImageTint=#Color3#,#Color3Alpha#
+AntiAlias=1
+W=18
+H=18
+
 ; -- Icon W=18; H=18 Color 4 --
 [Style_Icon_18_4]
 ImageTint=#Color4#,#Color4Alpha#

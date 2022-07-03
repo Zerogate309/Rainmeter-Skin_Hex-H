@@ -35,7 +35,7 @@ Padding=10
 ; --- Format is: Red, Green, Blue with no Transparency (Alpha) ---
 ; --- And the Name of the Color which is displayed when you drive over the color palette ---
 
-ColorERROR=77,100,141
+ColorERROR=150,0,210
 
 ColorPal_01=30,40,50
 ColorTxt_01=Midnight
@@ -301,7 +301,7 @@ Language=de-DE
 ; ############ Units ############
 
 ; ---- 12 = 12 hr | 24 = 24 hr ----
-FormatTime=24
+FormatTime=24h
 
 ; ---- C = Celsius | F = Fahrenheit ----
 UnitTemp=C
@@ -319,7 +319,7 @@ Location=GMXX0063
 ; Copy the entire ADDRESS BAR and paste it as 'URLSite={your addressbar}' below to set your location
 ; Refresh the weather skin
 
-URLSite=https://www.yahoo.com/news/weather/germany/muenchen/muenchen-676756
+URLSite=https://www.yahoo.com/news/weather/germany/bavaria/munich-676757
 ; --- Test locations
 ;https://www.yahoo.com/news/weather/turkey/istanbul/istanbul-2344116
 ;https://www.yahoo.com/news/weather/united-kingdom/southampton/southampton-35356
