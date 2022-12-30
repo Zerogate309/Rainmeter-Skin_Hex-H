@@ -291,6 +291,13 @@ FontColor=#Color3#,#Color3Alpha#
 StringAlign=Center
 AntiAlias=1
 
+[Style_Font_2_11_4_C]
+FontFace=#FontFace_2#
+FontSize=#FontSize_11#
+FontColor=#Color4#,#Color4Alpha#
+StringAlign=Center
+AntiAlias=1
+
 [Style_Font_2_12_3_L]
 FontFace=#FontFace_2#
 FontSize=#FontSize_12#
@@ -316,6 +323,20 @@ X=10
 ImageName=#@#\Frames\Hex H - S_Frame.png
 ImageTint=#Color2#,#Color2Alpha#
 X=10
+
+; ---- Base Styles M ----
+; -- Background_0M --
+[Style_Background_0M]
+ImageName=#@#\Frames\Hex H - M_Back.png
+ImageTint=#Color1#,#Color1Alpha#
+X=10
+Y=30
+; -- Frame_0M --
+[Style_Frame_0M]
+ImageName=#@#\Frames\Hex H - M_Frame.png
+ImageTint=#Color2#,#Color2Alpha#
+X=10
+Y=30
 
 ; ---- Base Styles L ----
 ; -- Background_0L --

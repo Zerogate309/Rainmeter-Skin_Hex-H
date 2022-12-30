@@ -23,6 +23,7 @@ License=Creative Commons Attribution-Non-Commercial-Share Alike 4.0
 ; ---- Folder Links ----
 ; ---- Web-Links ----
 ; ---- Appointments ----
+; ---- TimeZones ----
 ; ---- WebRadio ----
 
 ; ############ Skin Variables ############
@@ -35,7 +36,11 @@ Padding=10
 ; --- Format is: Red, Green, Blue with no Transparency (Alpha) ---
 ; --- And the Name of the Color which is displayed when you drive over the color palette ---
 
+<<<<<<< Updated upstream
 ColorERROR=77,100,141
+=======
+ColorERROR=100,100,100
+>>>>>>> Stashed changes
 
 ColorPal_01=30,40,50
 ColorTxt_01=Midnight
@@ -124,7 +129,7 @@ ColorTxt_28=Yellow
 ColorPal_29=31,150,66
 ColorTxt_29=Green
 
-ColorPal_30=150,0,210
+ColorPal_30=120,30,180
 ColorTxt_30=Violett
 
 ColorPal_31=0,0,240
@@ -319,7 +324,11 @@ Location=GMXX0063
 ; Copy the entire ADDRESS BAR and paste it as 'URLSite={your addressbar}' below to set your location
 ; Refresh the weather skin
 
+<<<<<<< Updated upstream
 URLSite=https://www.yahoo.com/news/weather/germany/muenchen/muenchen-676756
+=======
+URLSite=https://www.yahoo.com/news/weather/portugal/madeira/madeira-da%20igreja-55868146?location-picker=madeira+island
+>>>>>>> Stashed changes
 ; --- Test locations
 ;https://www.yahoo.com/news/weather/turkey/istanbul/istanbul-2344116
 ;https://www.yahoo.com/news/weather/united-kingdom/southampton/southampton-35356
@@ -433,6 +442,15 @@ Date_2_Link=https://www.google.de/
 Date_3_Name=31.12. Party
 Date_3_Note=Happy New Year!
 Date_3_Link=https://www.google.de/
+
+TimeZone1_Dif=+8
+TimeZone1_Place=Tokyo
+
+TimeZone2_Dif=+1
+TimeZone2_Place=Paris
+
+TimeZone3_Dif=-5
+TimeZone3_Place=New York
 
 ; ---- WebRadio ----
 ;-- Webradio Basic Settings ----------------------------------------------------------------------- 
