@@ -5,7 +5,7 @@
 Name=Hex H Suite
 Author=Zerogate309
 Information=Styles for the Suite
-FileVersion=0.5
+FileVersion=2022-12
 License=Creative Commons Attribution-Non-Commercial-Share Alike 4.0
 
 ; ############ Index Styles ############
@@ -528,6 +528,13 @@ AntiAlias=1
 W=18
 H=18
 
+; -- Icon W=18; H=18 Color 3 --
+[Style_Icon_18_3]
+ImageTint=#Color3#,#Color3Alpha#
+AntiAlias=1
+W=18
+H=18
+
 ; -- Icon W=18; H=18 Color 4 --
 [Style_Icon_18_4]
 ImageTint=#Color4#,#Color4Alpha#
@@ -625,6 +632,13 @@ ImageTint=#Color9#,#Color9Alpha#
 AntiAlias=1
 W=24
 H=24
+
+; -- Icon W=26; H=26 Color 9 --
+[Style_Icon_26_9]
+ImageTint=#Color9#,#Color9Alpha#
+AntiAlias=1
+W=26
+H=26
 
 ; -- Icon W=28; H=28 Color 3 --
 [Style_Icon_28_3]
