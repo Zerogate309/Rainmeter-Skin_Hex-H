@@ -5,7 +5,7 @@
 Name=Hex H Suite
 Author=Zerogate309
 Information=Variables for the Suite
-FileVersion=0.5
+FileVersion=2022-12
 License=Creative Commons Attribution-Non-Commercial-Share Alike 4.0
 
 [Variables]
@@ -36,11 +36,8 @@ Padding=10
 ; --- Format is: Red, Green, Blue with no Transparency (Alpha) ---
 ; --- And the Name of the Color which is displayed when you drive over the color palette ---
 
-<<<<<<< Updated upstream
+
 ColorERROR=77,100,141
-=======
-ColorERROR=100,100,100
->>>>>>> Stashed changes
 
 ColorPal_01=30,40,50
 ColorTxt_01=Midnight
@@ -317,60 +314,6 @@ Degrees=[\x00B0]
 ; ---- Location for Weather.com ----
 Location=GMXX0063
 
-; ---- Location for Yahoo.com ----
-; LOCATION ADJUSTMENT
-; If the auto-location is not accurate enough for you
-; Go to http://www.yahoo.com/News/Weather and find your location
-; Copy the entire ADDRESS BAR and paste it as 'URLSite={your addressbar}' below to set your location
-; Refresh the weather skin
-
-<<<<<<< Updated upstream
-URLSite=https://www.yahoo.com/news/weather/germany/muenchen/muenchen-676756
-=======
-URLSite=https://www.yahoo.com/news/weather/portugal/madeira/madeira-da%20igreja-55868146?location-picker=madeira+island
->>>>>>> Stashed changes
-; --- Test locations
-;https://www.yahoo.com/news/weather/turkey/istanbul/istanbul-2344116
-;https://www.yahoo.com/news/weather/united-kingdom/southampton/southampton-35356
-;https://www.yahoo.com/news/weather/united-states/fort-hunt/fort-hunt-23418210
-; --- Default
-;https://www.yahoo.com/news/weather/
-; =====================================
-; Weather update rate; default is '600' milliseconds (~ every 5 minutes)
-
-UpdateRate=600
-
-; =====================================
-; Abbreviations for zones
-; If not accurate for your location, edit the letters after the offset number
- 
-TimeZones="-12":"IDLW","-11":"NT","-10":"CAT","-9":"HDT","-8":"PST","-7":"MST","-6":"CST","-5":"EST","-4":"EDT","-3":"AST","-2":"ADT","-1":"WAT","0":"GMT","1":"CET","2":"CEST","3":"EEST","7":"WAST","8":"CCT","9":"JST","10":"EAST","11":"EADT","12":"NZST","13":"NZDT","12":"IDLE"
-; =====================================
-
-; =====================================
-; Don't change any below here.
-; =====================================
-
-DistanceUnitF=mi
-DistanceUnitC=km
-SpeedUnitF=mph
-SpeedUnitC=kph
-PressureUnitF=in
-PressureUnitC=mb
-
-; Current Details
-; Returns: Country, location, Latitude, Longitude, TimeOffset, Pressure, Condition Icon, ConditionText, DayText, NightText (if available), Temp Now, Temp High, Temp Low, FeelsLike, ObsTimeStamp, Humidity, PrecipPercent, UVText, UVIndex, Visibility, WindDirection, WindDirectionCode, WindSpeed, Sunrise, Sunset, MoonPhase 
-Current=.*"countryName":"(.*)","displayName":"(.*)","latitude":(.*),"longitude":(.*),"offsetSecs":(.*)},"observation":{"barometricPressure":(.*),"conditionCode":(.*),"conditionDescription":"(.*)".*"text":"(.*)".*"text":"(.*)".*"temperature":{"now":(.*),"high":(.*),"low":(.*),"feelsLike":(.*)},.*"observationTime":.*"timestamp":"(.*)".*"humidity":(.*),"precipitationProbability":(.*),"uvDescription":"(.*)","uvIndex":(.*),"visibility":(.*),"windDirection":(.*),"windDirectionCode":"(.*)","windSpeed":(.*),.*"sunAndMoon":{"sunrise":(.*),"sunset":(.*),"moonPhase":(.*)},
-
-; Daily Forecast Details
-; Repeats forecast for today and the next 10 days
-; Returns: ConditionIcon, ConditionText, DayText, NightText (if available), High, Low, TimeStamp, Humidity, PrecipPercent
-Day=.*"conditionCode":(.*),"conditionDescription":"(.*)".*"text":"(.*)".*(?(?="dayPart":).*"text":"(.*)").*"temperature":{"high":(.*),"low":(.*)}.*"timestamp":"(.*)".*"humidity":(.*),"precipitationProbability":(.*),
-
-; Future use?
-LangSub=.*"LangStore":.*"react-weather":{(.*)},"tdv2-applet-uh":
-;}},"intlConfig":
-
 
 ; ############ Content Variables ############
 
@@ -468,7 +411,7 @@ Station_1_Image		=UnserRadio.png
 Station_1_Stream	=http://rs4.stream24.net/unser-radio.mp3
 Station_1_URL       =https://onlineradiobox.com/de/unserradio/playlist/
 
-Station_2_Name		=MABU Beatz Radio
+Station_2_Name		=MABU Beatz Radio - Dub Techno
 Station_2_Image		=MABU Beatz Radio.png
 Station_2_Stream	=https://audio.mabu-beatz-radio.com:8003/dub.m3u
 Station_2_URL       =https://mabu-beatz-radio.com/

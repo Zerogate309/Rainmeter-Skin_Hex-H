@@ -4,8 +4,8 @@
 [Metadata]
 Name=Hex H Suite
 Author=Zerogate309
-Information=Measures for the Suite
-FileVersion=0.6
+Information=Measures Collection for my Skins
+FileVersion=
 License=Creative Commons Attribution-Non-Commercial-Share Alike 4.0
 
 ; ###### Index Measures ######
@@ -663,17 +663,23 @@ IfTrueAction6=[!SetOption "Meter_Wifi_Quality" "ImageName" "#@#Icons\Icon-Signal
 DynamicVariables=1
 
 ; ========== Audio ==========
+
 ; ---- System Volume ----
+
 [Measure_Volume]
 Measure=Plugin
 Plugin=Win7AudioPlugin
+
 ; ---- System Volume in Percent ----
+
 [Volume_Percentage]
 Measure=Calc
 Formula=(Measure_Volume+1-1)
 MinValue=0
 MaxValue=100
+
 ; ---- Media Player ----
+
 [Measure_Player]
 Measure=NowPlaying
 PlayerName=#PlayerName#

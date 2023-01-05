@@ -26,7 +26,6 @@ Skins Includet:
 - Link Skins for Folders, Programms and Web-Links
 - Network and WLAN Skins
 - Some Search Skins
-- Weather-Skin based on Yahoo!
 
 
 The [NORD Colorpalettes](https://www.nordtheme.com/docs/colors-and-palettes) is includet
@@ -61,8 +60,6 @@ And a big thx to all the beautiful Skins that inspired me!
 [Notes++](https://www.deviantart.com/razieil/art/Notes-759199537)
 
 [NetworkPanel 1.0](https://www.deviantart.com/jsmorley/art/NetworkPanel-1-0-626627189)
-
-[Yahoo Weather Skin](https://forum.rainmeter.net/viewtopic.php?t=34945)
 
 [Plain weather icons](https://www.deviantart.com/merlinthered/art/plain-weather-icons-157162192)
 
