@@ -327,6 +327,48 @@ SearchEngine=Google
 ; ---- Ping IP-Adress ----
 Ping=192.168.0.81
 
+
+; ---- App Links 1 ----
+Apps1_1_Icon=Mozilla Firefox.png
+Apps1_1_Link=C:\Program Files\Mozilla Firefox\firefox.exe
+
+Apps1_2_Icon=VLC.png
+Apps1_2_Link=C:\Program Files\VideoLAN\VLC\vlc.exe
+
+Apps1_3_Icon=INKSCAPE.png
+Apps1_3_Link=C:\Program Files\Inkscape\inkscape.exe
+
+Apps1_4_Icon=Calculator.png
+Apps1_4_Link=C:\Windows\System32\Calc.exe
+
+Apps1_5_Icon=NOTEPAD++.png
+Apps1_5_Link=C:\Program Files\Notepad++\notepad++.exe
+
+Apps1_6_Icon=GIMP.png
+Apps1_6_Link=C:\Program Files\GIMP 2\bin\gimp-2.10.exe
+
+
+; ---- App Links 2 (Example for an other App skin) ----
+; ---- If you need more, have a look on the number after the App"X"
+Apps2_1_Icon=_Downloads
+Apps2_1_Link=D:\_Downloads
+
+Apps2_2_Icon=_Projects
+Apps2_2_Link=D:\_Projects
+
+Apps2_3_Icon=_Backup
+Apps2_3_Link=D:\_Backup
+
+Apps2_4_Icon=_Downloads
+Apps2_4_Link=D:\_Downloads
+
+Apps2_5_Icon=_Projects
+Apps2_5_Link=D:\_Projects
+
+Apps2_6_Icon=_Backup
+Apps2_6_Link=D:\_Backup
+
+
 ; ---- Folder Links ----
 Folder_1_Name=_Downloads
 Folder_1_Link=D:\_Downloads
