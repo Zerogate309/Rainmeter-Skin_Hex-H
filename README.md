@@ -20,7 +20,7 @@ Version 1.1
 - Added: Top CPU-Process
 - Added: 3 Skins for different time zones
 - Added: A setup skin for "Apps1" skin (easy edit the Icons & Links)
-    (Just put all Icons in the Apps1 folder)
+    (all Icons must be in the Apps1 folder)
 - many, many Bug fixes and improvements!
 
 
