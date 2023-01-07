@@ -33,6 +33,7 @@ I have rework ALL skins so ALL must be replaced!
 
 ------------
 Version 1.0
+
 Here you see my first Rainmeter Skin: The Hexagon H Skin Suite!
 
 ("H" means: all Skins can be arranged in Horizontal direction!)
