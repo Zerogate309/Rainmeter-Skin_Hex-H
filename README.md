@@ -3,6 +3,36 @@
 
 ![Hex H - Screenshot Release](https://user-images.githubusercontent.com/80350264/121074362-0a049a00-c7d4-11eb-8cf0-9b496d2ee2ac.PNG)
 
+Version 1.1
+
+- Fixed: High CPU-Load – There was a bug in my mind! I made all measures in an external file,
+    but EVERY skin load the measure file with ALL measures!
+- Fixed: Language setting for date. Now you can choose between 6 different Languages.
+    Want other? See inside the “Hex Settings.ini” how to do!
+- Fixed: Toggle between C(elsius) and F(ahrenheit) – But the weather doesn’t work!
+    See next point…
+- Deleted: I removed all weather skins, because Yahoo changed their website at December 2022 
+    and the WebParser no longer works.
+    The Support have no Time to fix it and said, Yahoo weather is not the best solution.
+    And I haven’t the knowledge to fix it by myself. So I delete all weather skins.
+    Maybe someday, if there is a stable solution, I bring the skins back…big sorry, for that!
+- Update: Links for Programms are now editable! Hover the mouse over the bottom of the skin.
+- Added: Top CPU-Process
+- Added: 3 Skins for different time zones
+- Added: A setup skin for "Apps1" skin (easy edit the Icons & Links)
+    (Just put all Icons in the Apps1 folder)
+- many, many Bug fixes and improvements!
+
+
+Hint!
+
+Before you install the new version, save your Hex Variables.ini to a different place!
+
+So you can restore your colors and other settings you have changed!
+I have rework ALL skins so ALL must be replaced!
+
+------------
+Version 1.0
 Here you see my first Rainmeter Skin: The Hexagon H Skin Suite!
 
 ("H" means: all Skins can be arranged in Horizontal direction!)
